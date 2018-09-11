@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5251F9F354CDEC497BC36CA7 /* Pods_FoodSocialMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECD81E55FBCECA5A5B015CB /* Pods_FoodSocialMedia.framework */; };
+		BF79A4D42135ED5B00F53C1C /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF79A4D32135ED5B00F53C1C /* FriendsTableViewCell.swift */; };
+		BF79A4D62135EE4500F53C1C /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF79A4D52135EE4500F53C1C /* FriendsTableViewController.swift */; };
+		BF79A4D821360CE400F53C1C /* FriendsPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF79A4D721360CE400F53C1C /* FriendsPostsViewController.swift */; };
+		BFC825AD2122492C003A5048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC825AC2122492C003A5048 /* AppDelegate.swift */; };
+		BFC825AF2122492C003A5048 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC825AE2122492C003A5048 /* LoginViewController.swift */; };
+		BFC825B22122492C003A5048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC825B02122492C003A5048 /* Main.storyboard */; };
+		BFC825B42122492C003A5048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC825B32122492C003A5048 /* Assets.xcassets */; };
+		BFC825B72122492C003A5048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC825B52122492C003A5048 /* LaunchScreen.storyboard */; };
+		BFCA4043212B5C6600CA1BE6 /* FeedPhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA4042212B5C6600CA1BE6 /* FeedPhotoViewCell.swift */; };
+		BFD56F28212A4C3B00496C2F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFD56F27212A4C3B00496C2F /* GoogleService-Info.plist */; };
+		BFD56F2B212A53FC00496C2F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD56F2A212A53FC00496C2F /* HomeViewController.swift */; };
+		BFD56F2E212A546400496C2F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD56F2D212A546400496C2F /* User.swift */; };
+		BFD56F30212A573E00496C2F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD56F2F212A573E00496C2F /* SettingsViewController.swift */; };
+		BFD56F33212A7B4B00496C2F /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD56F32212A7B4B00496C2F /* PinterestLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04420E277D7D09AF5CDCF3BD /* Pods-FoodSocialMedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSocialMedia.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodSocialMedia/Pods-FoodSocialMedia.release.xcconfig"; sourceTree = "<group>"; };
+		0B70219CF554E40FA63C1DF9 /* Pods-FoodSocialMedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSocialMedia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodSocialMedia/Pods-FoodSocialMedia.debug.xcconfig"; sourceTree = "<group>"; };
+		4ECD81E55FBCECA5A5B015CB /* Pods_FoodSocialMedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodSocialMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF79A4D32135ED5B00F53C1C /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		BF79A4D52135EE4500F53C1C /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		BF79A4D721360CE400F53C1C /* FriendsPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPostsViewController.swift; sourceTree = "<group>"; };
+		BFC825A92122492C003A5048 /* FoodSocialMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodSocialMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC825AC2122492C003A5048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFC825AE2122492C003A5048 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BFC825B12122492C003A5048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFC825B32122492C003A5048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFC825B62122492C003A5048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFC825B82122492C003A5048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC825C421225CA7003A5048 /* FoodSocialMedia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodSocialMedia.entitlements; sourceTree = "<group>"; };
+		BFCA4042212B5C6600CA1BE6 /* FeedPhotoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPhotoViewCell.swift; sourceTree = "<group>"; };
+		BFD56F27212A4C3B00496C2F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BFD56F2A212A53FC00496C2F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BFD56F2D212A546400496C2F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BFD56F2F212A573E00496C2F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BFD56F32212A7B4B00496C2F /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC825A62122492C003A5048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5251F9F354CDEC497BC36CA7 /* Pods_FoodSocialMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1570A56B29BCB2393C1B110E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B70219CF554E40FA63C1DF9 /* Pods-FoodSocialMedia.debug.xcconfig */,
+				04420E277D7D09AF5CDCF3BD /* Pods-FoodSocialMedia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A40884A377EA718CD757FD4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ECD81E55FBCECA5A5B015CB /* Pods_FoodSocialMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFC825A02122492C003A5048 = {
+			isa = PBXGroup;
+			children = (
+				BFC825AB2122492C003A5048 /* FoodSocialMedia */,
+				BFC825AA2122492C003A5048 /* Products */,
+				1570A56B29BCB2393C1B110E /* Pods */,
+				A40884A377EA718CD757FD4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC825AA2122492C003A5048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC825A92122492C003A5048 /* FoodSocialMedia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC825AB2122492C003A5048 /* FoodSocialMedia */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56F31212A7B2300496C2F /* Layouts */,
+				BFD56F2C212A545200496C2F /* Models */,
+				BFC825C421225CA7003A5048 /* FoodSocialMedia.entitlements */,
+				BFD56F29212A536600496C2F /* Controllers */,
+				BFC825B02122492C003A5048 /* Main.storyboard */,
+				BFC825CD21250BF1003A5048 /* Supporting Files */,
+				BFC825B82122492C003A5048 /* Info.plist */,
+				BFD56F27212A4C3B00496C2F /* GoogleService-Info.plist */,
+			);
+			path = FoodSocialMedia;
+			sourceTree = "<group>";
+		};
+		BFC825CD21250BF1003A5048 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFC825AC2122492C003A5048 /* AppDelegate.swift */,
+				BFC825B32122492C003A5048 /* Assets.xcassets */,
+				BFC825B52122492C003A5048 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFD56F29212A536600496C2F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFC825AE2122492C003A5048 /* LoginViewController.swift */,
+				BFD56F2A212A53FC00496C2F /* HomeViewController.swift */,
+				BFD56F2F212A573E00496C2F /* SettingsViewController.swift */,
+				BF79A4D52135EE4500F53C1C /* FriendsTableViewController.swift */,
+				BF79A4D721360CE400F53C1C /* FriendsPostsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BFD56F2C212A545200496C2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56F2D212A546400496C2F /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFD56F31212A7B2300496C2F /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56F32212A7B4B00496C2F /* PinterestLayout.swift */,
+				BFCA4042212B5C6600CA1BE6 /* FeedPhotoViewCell.swift */,
+				BF79A4D32135ED5B00F53C1C /* FriendsTableViewCell.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFC825A82122492C003A5048 /* FoodSocialMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC825BB2122492C003A5048 /* Build configuration list for PBXNativeTarget "FoodSocialMedia" */;
+			buildPhases = (
+				B5DEBECB5E45794E39174FA5 /* [CP] Check Pods Manifest.lock */,
+				BFC825A52122492C003A5048 /* Sources */,
+				BFC825A62122492C003A5048 /* Frameworks */,
+				BFC825A72122492C003A5048 /* Resources */,
+				6A5A163434FF9FCCE99489A0 /* [CP] Embed Pods Frameworks */,
+				F2D96B0758546C8419E5EAEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodSocialMedia;
+			productName = FoodSocialMedia;
+			productReference = BFC825A92122492C003A5048 /* FoodSocialMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC825A12122492C003A5048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Zain Budhwani";
+				TargetAttributes = {
+					BFC825A82122492C003A5048 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BFC825A42122492C003A5048 /* Build configuration list for PBXProject "FoodSocialMedia" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFC825A02122492C003A5048;
+			productRefGroup = BFC825AA2122492C003A5048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC825A82122492C003A5048 /* FoodSocialMedia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFC825A72122492C003A5048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC825B72122492C003A5048 /* LaunchScreen.storyboard in Resources */,
+				BFD56F28212A4C3B00496C2F /* GoogleService-Info.plist in Resources */,
+				BFC825B42122492C003A5048 /* Assets.xcassets in Resources */,
+				BFC825B22122492C003A5048 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A5A163434FF9FCCE99489A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FoodSocialMedia/Pods-FoodSocialMedia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodSocialMedia/Pods-FoodSocialMedia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5DEBECB5E45794E39174FA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodSocialMedia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2D96B0758546C8419E5EAEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodSocialMedia/Pods-FoodSocialMedia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC825A52122492C003A5048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD56F33212A7B4B00496C2F /* PinterestLayout.swift in Sources */,
+				BFD56F2E212A546400496C2F /* User.swift in Sources */,
+				BF79A4D62135EE4500F53C1C /* FriendsTableViewController.swift in Sources */,
+				BFC825AF2122492C003A5048 /* LoginViewController.swift in Sources */,
+				BF79A4D42135ED5B00F53C1C /* FriendsTableViewCell.swift in Sources */,
+				BFC825AD2122492C003A5048 /* AppDelegate.swift in Sources */,
+				BF79A4D821360CE400F53C1C /* FriendsPostsViewController.swift in Sources */,
+				BFD56F30212A573E00496C2F /* SettingsViewController.swift in Sources */,
+				BFD56F2B212A53FC00496C2F /* HomeViewController.swift in Sources */,
+				BFCA4043212B5C6600CA1BE6 /* FeedPhotoViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFC825B02122492C003A5048 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC825B12122492C003A5048 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFC825B52122492C003A5048 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC825B62122492C003A5048 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFC825B92122492C003A5048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFC825BA2122492C003A5048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFC825BC2122492C003A5048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B70219CF554E40FA63C1DF9 /* Pods-FoodSocialMedia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FoodSocialMedia/FoodSocialMedia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96UBJQC7TM;
+				INFOPLIST_FILE = FoodSocialMedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zainbudhwani.FoodSocialMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFC825BD2122492C003A5048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04420E277D7D09AF5CDCF3BD /* Pods-FoodSocialMedia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FoodSocialMedia/FoodSocialMedia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96UBJQC7TM;
+				INFOPLIST_FILE = FoodSocialMedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zainbudhwani.FoodSocialMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFC825A42122492C003A5048 /* Build configuration list for PBXProject "FoodSocialMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC825B92122492C003A5048 /* Debug */,
+				BFC825BA2122492C003A5048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC825BB2122492C003A5048 /* Build configuration list for PBXNativeTarget "FoodSocialMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC825BC2122492C003A5048 /* Debug */,
+				BFC825BD2122492C003A5048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC825A12122492C003A5048 /* Project object */;
+}
